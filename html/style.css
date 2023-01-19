@@ -1,0 +1,197 @@
+body {
+    color: white;
+    overflow-x: hidden;
+}
+
+.money {
+    font-size: 4vh;
+    color: rgb(243, 192, 53);
+    position: absolute;
+    left: 8%;
+    bottom: 75%;
+    display: inline-flex;
+}
+
+.container {
+    transform: scale(0.8);
+    position: relative;
+    left: 0%;
+    margin-top: 0.1%;
+}
+
+.topName {
+    margin-bottom: 0.6%;
+    margin-left: 2.5%;
+}
+
+.description {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8vh;
+    margin-top: 0.6%;
+    margin-left: 2.5%;
+    color: gray;
+    width: 16%;
+}
+
+.fa-car-side {
+    margin-right: 0.5%;
+}
+
+.fa-spray-can {
+    margin-right: 0.5%;
+}
+
+.fa-cogs{
+    margin-right: 0.5%;
+}
+
+
+.fa-dollar-sign {
+    margin-right: 0.5%;
+}
+
+.fa-angle-left {
+    font-size: 2.4vh;
+}
+
+.fa-angle-right {
+    font-size: 2.4vh;
+}
+
+.carL {
+    list-style: none;
+}
+
+.colors {
+    list-style: none;
+}
+
+.topList {
+    margin-bottom: 0.3%;
+}
+
+.colorList {
+    margin-left: 1.9%;
+    margin-top: 0.8%;
+    margin-bottom: 0.3%;
+}
+
+.listE {
+    list-style: none;
+    padding: 10px;
+    color: white;
+    font-size: 1.8vh;
+    width: 16%;
+    border: solid 2px;
+    border-radius: 6.5px;
+    margin-left: 2%;
+    background-color: rgba(19, 19, 19, 0.767);
+    border-color: rgba(140, 140, 141, 0.658);
+    margin-bottom: 0.5%;
+}
+
+.listComp {
+    list-style: none;
+    margin-left: 1.9%;
+    padding: 10px;
+    color: white;
+    font-size: 1.8vh;
+    width: 16%;
+    border: solid 2px;
+    border-radius: 6.5px;
+    background-color: rgba(19, 19, 19, 0.767);
+    border-color: rgba(141, 140, 140, 0.658);
+    margin-bottom: 0.5%;
+}
+
+
+
+.listE:hover {
+    border: solid 3px;
+    border-radius: 6.5px;
+    border-color: rgba(141, 140, 140, 0.534);
+}
+
+.list {
+    list-style: none;
+    margin-left: 1.9%;
+    padding: 10px;
+    color: white;
+    font-size: 1.8vh;
+    width: 16%;
+    border: solid 2px;
+    border-radius: 6.5px;
+    background-color: rgba(19, 19, 19, 0.767);
+    border-color: rgba(141, 140, 140, 0.658);
+    margin-bottom: 0.5%;
+}
+
+.list:hover {
+    border: solid 3px;
+    border-radius: 6.5px;
+    border-color: rgba(141, 140, 140, 0.534);
+}
+
+.listE p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    position: sticky;
+    left: 100%;
+    margin-left: 30%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    color: yellowgreen;
+}
+
+.list p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    position: sticky;
+    left: 100%;
+    margin-left: 30%;
+    margin-bottom: 0.11%;
+    margin-top: 0.1%;
+    color: yellowgreen;
+}
+
+.listComp:hover {
+    background: rgba(0, 252, 134, 0.795);
+}
+
+.list:hover {
+    background: rgba(18, 103, 231, 0.884);
+}
+
+.risco {
+    padding: 0.2vh;
+    width: 9vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(189,184,184,1) 0%, rgba(238,238,238,0) 100%);
+    display: inline-block;
+    margin-left: 0.5%;
+    margin-bottom: 0.2%;
+}
+
+.risco3 {
+    padding: 0.2vh;
+    width: 11vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(189,184,184,1) 0%, rgba(238,238,238,0) 100%);
+    display: inline-block;
+    margin-left: 0.5%;
+    margin-bottom: 0.2%;
+}
+
+.risco2 {
+    padding: 0.2vh;
+    width: 14vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(189,184,184,1) 0%, rgba(238,238,238,0) 100%);
+    display: inline-block;
+    margin-left: 0.5%;
+    margin-bottom: 0.2%;
+}
+
+.VendorName {
+    margin-top: 0.1%;
+    margin-left: 2.4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0.1%;
+}
